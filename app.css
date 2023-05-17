@@ -1,0 +1,74 @@
+/**
+    color
+    font size
+    text-transform
+    alignment
+    line_height
+    font_style
+    font_family
+    font_weight
+    letter_spacing
+    word_spacing
+    letter_spacing
+    */
+
+/**
+    display
+    height
+    width
+    margin
+    padding
+    border
+    box-sizing
+    **/
+
+.page_heading {
+    color: rgb(91, 89, 100);
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 40px;
+    font-style: normal;
+    font-family: 'Instrument Serif', serif;
+    ;
+    border: 1px solid rgb(121, 110, 110);
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+}
+
+.page_heading {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.inline_el {
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box_parent {
+    border: 1px solid red;
+    padding: 5px;
+    box-sizing: border-box;
+    /**
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; */
+    display: grid;
+    grid-template-columns: 30% calc(70% - 30px);
+    gap: 30px;
+
+}
+
+.item {
+    border: 1px solid red;
+}
